@@ -4,6 +4,7 @@ import './App.css'
 import ErrorBoundary from './component/ErrorBoundary'
 
 import SingleCounter from './component/SingleCounter'
+import Color from './component/Color'
 
 function App() {
 
@@ -32,6 +33,11 @@ function App() {
       <hr className="my-4 border-gray-400" />
       <p>This counter is not inside of boundary. So if crashes, all other components are deleted.</p>
    <SingleCounter />
+
+ <hr className="my-4 border-gray-400" />
+
+ <Color />
+
     </div>
   )
 }
